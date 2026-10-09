@@ -1,0 +1,25 @@
+# SciTS (TimeOmni) understanding suite, the 23 official test sets (ori_path inside these files is
+# relative to data/raw/scits/Release_v1 -> pass it as base_dir).
+data/raw/scits/Release_v1/CWRU-Manufacturing-Classification-Industrial_bearings/CWRU-Manufacturing-Classification-Industrial_bearings-test-400_fixed.jsonl
+data/raw/scits/Release_v1/GWOSC_GW_Event-Astronomy-Event_Detection-Gravitational_Wave/GWOSC_GW_Event-Astronomy-Event_Detection-Gravitational_Wave-test-1024_fixed.jsonl
+data/raw/scits/Release_v1/iNaturalist-Bioacoustics-Classification-Animal_sound/iNaturalist-Bioacoustics-Classification-Animal_sound-test-2474_fixed.jsonl
+data/raw/scits/Release_v1/LEAVES-Astronomy-Classification-Light_Curve/LEAVES-Astronomy-Classification-Light_Curve-test-1024_fixed.jsonl
+data/raw/scits/Release_v1/MarmAudio-Bioacoustics-Classification-Marmoset/MarmAudio-Bioacoustics-Classification-Marmoset-test-900_fixed.jsonl
+data/raw/scits/Release_v1/MDD-Neuroscience-Anomaly_Detection-Depressive_disorder/MDD-Neuroscience-Anomaly_Detection-Depressive_disorder-test-1000_corrected_fixed.jsonl
+data/raw/scits/Release_v1/MIMII_Due-Manufacturing-Anomaly_Detection-Industrial_machine/MIMII_Due-Manufacturing-Anomaly_Detection-Industrial_machine-test-3600_fixed.jsonl
+data/raw/scits/Release_v1/MT_bench-Economics-QA-Stock/MT_bench-Economics-QA-Stock-test-303_fixed.jsonl
+data/raw/scits/Release_v1/MT_bench-Meteorology-QA-Temperature/MT_bench-Meteorology-QA-Temperature-test-413_fixed.jsonl
+data/raw/scits/Release_v1/Powdermill-Bioacoustics-Classification-Birds_sound/Powdermill-Bioacoustics-Classification-Birds_sound-test-1602_fixed.jsonl
+data/raw/scits/Release_v1/PTB_XL-Physiology-Classification-ECG/PTB_XL-Physiology-Classification-ECG-test-2090_fixed.jsonl
+data/raw/scits/Release_v1/RadarCom-Radar-Classification-Radar_signal/RadarCom-Radar-Classification-Radar_signal-test-1280_fixed.jsonl
+data/raw/scits/Release_v1/RadSeg-Radar-Classification-Radar_segment/RadSeg-Radar-Classification-Radar_segment-test-963_fixed.jsonl
+data/raw/scits/Release_v1/Sleep-Neuroscience-Classification-Sleep_stage/Sleep-Neuroscience-Classification-Sleep_stage-test-1024_fixed.jsonl
+data/raw/scits/Release_v1/STEAD-Earth_Science-Event_Detection-Earthquake/STEAD-Earth_Science-Event_Detection-Earthquake-test-2048_fixed.jsonl
+data/raw/scits/Release_v1/TIMECAP-Meteorology-Anomaly_Detection-Rainfall/TIMECAP-Meteorology-Anomaly_Detection-Rainfall-test-1131_fixed.jsonl
+data/raw/scits/Release_v1/TS_MQA-Meteorology-Anomaly_Detection-Weather/TS_MQA-Meteorology-Anomaly_Detection-Weather-test-1256_fixed.jsonl
+data/raw/scits/Release_v1/TS_MQA-Physiology-Anomaly_Detection-ECG/TS_MQA-Physiology-Anomaly_Detection-ECG-test-1006_fixed.jsonl
+data/raw/scits/Release_v1/TS_MQA-Physiology-Anomaly_Detection-Freezing/TS_MQA-Physiology-Anomaly_Detection-Freezing-test-1882_fixed.jsonl
+data/raw/scits/Release_v1/TS_MQA-Physiology-Classification-Activity/TS_MQA-Physiology-Classification-Activity-test-1818_fixed.jsonl
+data/raw/scits/Release_v1/TS_MQA-Urbanism-Anomaly_Detection-Traffic_flow/TS_MQA-Urbanism-Anomaly_Detection-Traffic_flow-test-122_fixed.jsonl
+data/raw/scits/Release_v1/TUEV-Neuroscience-Classification-EEG_waveform/TUEV-Neuroscience-Classification-EEG_waveform-test-789_fixed.jsonl
+data/raw/scits/Release_v1/WBCIC_SHU-Neuroscience-Classification-Movement_imagination/WBCIC_SHU-Neuroscience-Classification-Movement_imagination-test-3600_fixed.jsonl

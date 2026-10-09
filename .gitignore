@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.cache/
+outputs/
+checkpoints/
+third_party/
+data/raw/
+data/understanding/derived/
+data/understanding/*/*_train.jsonl
+.env
+*.log

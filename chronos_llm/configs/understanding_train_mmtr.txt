@@ -1,0 +1,22 @@
+# MMTR understanding training pool: the six public reasoning-annotated sources. Each listed jsonl
+# follows the unified schema (time series, question, reasoning trace, answer) and is built from the
+# public release of its source.
+# Sources are concatenated at their natural proportions (no re-weighting).
+# ST-Bench rows have their reasoning trace cleared (its official test set carries no trace, so the
+# model answers ST-Bench directly); rows with an empty trace automatically use the no-reasoning template.
+# One path per line, relative to the repository root; `#` starts a comment.
+
+# OpenTSLM: ECG-QA-CoT / HAR-CoT / Sleep-CoT
+data/understanding/opentslm/ecg_qa_train.jsonl
+data/understanding/opentslm/har_train.jsonl
+data/understanding/opentslm/sleep_train.jsonl
+# ST-Bench understanding subtasks T1/T2/T3 (T4 forecasting is a separate parquet, see data/external)
+data/understanding/st-bench/stbench_train.jsonl
+# VeriTime / TSRBench
+data/understanding/veritime/veritime_train.jsonl
+# TelecomTS (network + anomalies QA, the two families that carry reasoning traces)
+data/understanding/telecomts/telecomts_train.jsonl
+# HiTSR L2 + L3
+data/understanding/hitsr/hitsr_train.jsonl
+# Time-RA / RATs40K (official release; mislabelled univariate samples removed)
+data/understanding/time-ra/time_ra_train.jsonl

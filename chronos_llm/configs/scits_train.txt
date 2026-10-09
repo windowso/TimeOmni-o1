@@ -1,0 +1,25 @@
+# SciTS (TimeOmni) understanding suite, official training split (21 of the 23 datasets: MIMII_Due has
+# no positive training examples and TS_MQA Traffic_flow has no training data). Download the suite
+# and place it under data/raw/scits/. Rainfall_up50 / Freezing_up30 are positive-class up-sampled
+# copies of the corresponding official training files.
+data/raw/scits/Release_train_standard/CWRU-Manufacturing-Classification-Industrial_bearings-train-3600_fixed.jsonl
+data/raw/scits/Release_train_standard/GWOSC_GW_Event-Astronomy-Event_Detection-Gravitational_Wave-train-79716_fixed.jsonl
+data/raw/scits/Release_train_standard/LEAVES-Astronomy-Classification-Light_Curve-train-201259_fixed.jsonl
+data/raw/scits/Release_train_standard/MDD-Neuroscience-Anomaly_Detection-Depressive_disorder-train-6462_corrected_fixed.jsonl
+data/raw/scits/Release_train_standard/MT_bench-Economics-QA-Stock-train-704_fixed.jsonl
+data/raw/scits/Release_train_standard/MT_bench-Meteorology-QA-Temperature-train-960_fixed.jsonl
+data/raw/scits/Release_train_standard/MarmAudio-Bioacoustics-Classification-Marmoset-train-214100_fixed.jsonl
+data/raw/scits/Release_train_standard/PTB_XL-Physiology-Classification-ECG-train-19709_fixed.jsonl
+data/raw/scits/Release_train_standard/Powdermill-Bioacoustics-Classification-Birds_sound-train-14450_fixed.jsonl
+data/raw/scits/Release_train_standard/RadSeg-Radar-Classification-Radar_segment-train-80660_fixed.jsonl
+data/raw/scits/Release_train_standard/RadarCom-Radar-Classification-Radar_signal-train-12537_fixed.jsonl
+data/raw/scits/Release_train_standard/STEAD-Earth_Science-Event_Detection-Earthquake-train-201259_fixed.jsonl
+data/raw/scits/Release_train_standard/Sleep-Neuroscience-Classification-Sleep_stage-train-157946_fixed.jsonl
+data/raw/scits/Release_train_standard/TIMECAP-Meteorology-Anomaly_Detection-Rainfall-train-4521_fixed_up50.jsonl
+data/raw/scits/Release_train_standard/TS_MQA-Meteorology-Anomaly_Detection-Weather-train-11290_fixed.jsonl
+data/raw/scits/Release_train_standard/TS_MQA-Physiology-Anomaly_Detection-ECG-train-9051_fixed.jsonl
+data/raw/scits/Release_train_standard/TS_MQA-Physiology-Anomaly_Detection-Freezing-train-16618_fixed_up30.jsonl
+data/raw/scits/Release_train_standard/TS_MQA-Physiology-Classification-Activity-train-16682_fixed.jsonl
+data/raw/scits/Release_train_standard/TUEV-Neuroscience-Classification-EEG_waveform-train-1592_fixed.jsonl
+data/raw/scits/Release_train_standard/WBCIC_SHU-Neuroscience-Classification-Movement_imagination-train-36890_fixed.jsonl
+data/raw/scits/Release_train_standard/iNaturalist-Bioacoustics-Classification-Animal_sound-train-171654_fixed.jsonl

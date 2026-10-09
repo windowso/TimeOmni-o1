@@ -1,0 +1,6 @@
+# GRPO "rest" pools, one jsonl per discipline; see grpo_focus_pools.txt.
+data/understanding/derived/grpo/rest_bioacoustics.jsonl
+data/understanding/derived/grpo/rest_crossdomainsynthetic.jsonl
+data/understanding/derived/grpo/rest_economics.jsonl
+data/understanding/derived/grpo/rest_physiology.jsonl
+data/understanding/derived/grpo/rest_telecommunications.jsonl

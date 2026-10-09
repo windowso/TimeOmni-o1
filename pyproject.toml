@@ -1,0 +1,18 @@
+[project]
+name = "timeomni-o1"
+version = "0.1.0"
+description = "TimeOmni-o1: coupling a time-series foundation model with an LLM for multimodal time series reasoning (understanding + forecasting), and the MMTR dataset tooling"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+# `chronos` is the unmodified upstream Chronos-2 package (src/chronos); `chronos_llm` is this work.
+packages = ["src/chronos", "chronos_llm"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src/chronos" = "chronos"

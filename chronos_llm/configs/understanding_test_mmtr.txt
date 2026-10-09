@@ -1,0 +1,21 @@
+# MMTR understanding test sets. Each source keeps its official test
+# split (TelecomTS has none: the last 5% of rows are held out, split by row so the six QA pairs of a
+# row never straddle train/test).
+# Each listed jsonl follows the unified schema (time series, question, reasoning trace, answer) and is built from the public
+# release of its source.
+# `ori_path` inside the jsonl is relative to the repository root (no base_dir needed when running from it).
+
+# OpenTSLM (ECG-QA / HAR / Sleep)
+data/understanding/opentslm/ecg_qa_test.jsonl
+data/understanding/opentslm/har_test.jsonl
+data/understanding/opentslm/sleep_test.jsonl
+# ST-Bench ST-Test
+data/understanding/st-bench/stbench_test.jsonl
+# VeriTime
+data/understanding/veritime/veritime_test.jsonl
+# TelecomTS
+data/understanding/telecomts/telecomts_test.jsonl
+# HiTSR L2 + L3
+data/understanding/hitsr/hitsr_test.jsonl
+# Time-RA / RATs40K (officially mislabelled items removed)
+data/understanding/time-ra/time_ra_test.jsonl
